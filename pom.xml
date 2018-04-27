@@ -18,10 +18,27 @@
     </build>
 
     <dependencies>
+        <!-- Adding the BOM for thorntail - this will bring in the other JavaEE dependencies -->
+        <dependency>
+            <groupId>io.thorntail</groupId>
+            <artifactId>thorntail-bom</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+            <type>pom</type>
+            <scope>import</scope>
+        </dependency>
         <dependency>
             <groupId>io.thorntail</groupId>
             <artifactId>thorntail-jaxrs</artifactId>
         </dependency>
+        
+        <!-- only need this for playing nicely in the IDE    -->
+        <dependency>
+            <groupId>javax</groupId>
+            <artifactId>javaee-api</artifactId>
+            <version>7.0</version>
+            <scope>provided</scope>
+        </dependency>
+       
     </dependencies>
 
 
