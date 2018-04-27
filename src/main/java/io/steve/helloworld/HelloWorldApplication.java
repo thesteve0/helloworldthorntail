@@ -6,7 +6,7 @@ import io.thorntail.Thorntail;
 
 @ApplicationPath("/")
 public class HelloWorldApplication extends Application {
-    public static void main(String... args) throws Exception {
+    public static void main(String args) throws Exception {
         Thorntail.run();
     }
 }

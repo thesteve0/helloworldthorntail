@@ -26,11 +26,12 @@
             <type>pom</type>
             <scope>import</scope>
         </dependency>
+        <!--
         <dependency>
             <groupId>io.thorntail</groupId>
             <artifactId>thorntail-jaxrs</artifactId>
         </dependency>
-        
+        -->
         <!-- only need this for playing nicely in the IDE    -->
         <dependency>
             <groupId>javax</groupId>
